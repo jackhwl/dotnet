@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@nrwl/cli': 14.1.9
   '@nrwl/workspace': 14.1.9
+  dotenv: ^16.0.1
   nx: 14.1.9
   prettier: ^2.5.1
   typescript: ~4.6.2
@@ -10,6 +11,7 @@ specifiers:
 devDependencies:
   '@nrwl/cli': 14.1.9_typescript@4.6.4
   '@nrwl/workspace': 14.1.9_igyi7w6qm73tfaya7seiivlrqu
+  dotenv: 16.0.1
   nx: 14.1.9_typescript@4.6.4
   prettier: 2.6.2
   typescript: 4.6.4
@@ -1434,6 +1436,11 @@ packages:
   /dotenv/10.0.0:
     resolution: {integrity: sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==}
     engines: {node: '>=10'}
+    dev: true
+
+  /dotenv/16.0.1:
+    resolution: {integrity: sha512-1K6hR6wtk2FviQ4kEiSjFiH5rpzEVi8WW0x96aztHVMhEspNpc4DVOUTEHtEva5VThQ8IaBX1Pe4gSzpVVUsKQ==}
+    engines: {node: '>=12'}
     dev: true
 
   /ejs/3.1.8:
